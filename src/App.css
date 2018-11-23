@@ -1,32 +1,30 @@
+html,body {
+   width: 100%;
+   min-height: 100%;
+   margin: 0;
+}
+
+html {
+   height: 100%;
+   font-size: 62.5%;
+}
+
+body {
+   height: auto;
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#217f7a+0,1b3c6b+100 */
+   background: #217f7a; /* Old browsers */
+   background: -moz-linear-gradient(-45deg, #217f7a 0%, #1b3c6b 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(-45deg, #217f7a 0%,#1b3c6b 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(135deg, #217f7a 0%,#1b3c6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#217f7a', endColorstr='#1b3c6b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.5rem;
+   font-weight: 400;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   min-width: 1200px;
 }

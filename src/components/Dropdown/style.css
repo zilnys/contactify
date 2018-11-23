@@ -1,0 +1,70 @@
+.Dropdown {
+   display: flex;
+   color: #fff;
+   justify-content: flex-end;
+   align-self: flex-start;
+   font-size: 16px;
+}
+
+/* .Dropdown > div {
+   background-color: #0ca1bb;
+   font-size: 16px;
+} */
+
+.Dropdown .fa {
+   font-size: 14px;
+}
+
+.Dropdown__panel {
+   display: flex;
+   width: 185px;
+   height: 36px;
+   border-radius: 0 0 8px 8px;
+   line-height: 24px;
+   align-items: center;
+   cursor: pointer;
+   background-color: #0ca1bb;
+}
+
+.Dropdown__panel__icon {
+   padding: 0 10px;
+}
+
+.Dropdown__panel__arrow {
+   position: relative;
+   left: 20px;
+}
+
+.Dropdown__nav {
+   position: absolute;
+   top: 50px;
+   width: 210px;
+   box-sizing: border-box;
+   border: 2px solid #08829a;
+   border-radius: 8px 0 8px 8px;
+   z-index: 2;
+   background-color: #0ca1bb;
+}
+
+.Dropdown__nav__list {
+   margin: 0;
+   list-style-type: none;
+   padding: 0;
+}
+
+.Dropdown__nav__list__item {
+   padding: 9px 0;
+   cursor: default;
+}
+
+.Dropdown__nav__list__item:not(:first-child){
+   border-top: 1px solid #22acc8;
+}
+
+.Dropdown__nav__list__item:not(:last-child){
+   border-bottom: 1px solid #0892ae;
+}
+
+.Dropdown__nav__list__item__icon {
+   padding: 0 10px;
+}

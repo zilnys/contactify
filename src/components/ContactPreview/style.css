@@ -1,0 +1,56 @@
+
+.ContactPreview {
+   width: 100%;
+   height: 100%;
+   background-color: #fff;
+   border-radius: 8px;
+}
+
+.ContactPreview__empty {
+   padding: 20px 30px 30px;
+   text-align: center;
+   color: #4f4d43;
+}
+
+.ContactPreview__image {
+   text-align: center;
+   line-height: 0;
+}
+
+.ContactPreview__image__img {
+   max-width: 190px;
+   height: auto;
+   margin-top: 12px;
+   border: 4px solid #d8d8ce;
+   border-radius: 50%;
+}
+
+.ContactPreview__image + .ContactPreview__details {
+   margin-top: 10px;
+}
+
+.ContactPreview__details {
+   font-size: 1.4rem;
+   width: 100%;
+   padding: 0 10px 20px;
+}
+
+.ContactPreview__details__row__cell {
+   padding: 5px;
+}
+
+.ContactPreview__details__row__cell:first-child {
+   color: #848484;
+   text-align: right;
+   padding-right: 10px;
+}
+
+.ContactPreview__details__row__cell:last-child {
+   color: #4F4D43;
+   padding-left: 0;
+   word-break: break-all;
+}
+
+.ContactPreview__details__link {
+   color: #0094BC;
+}

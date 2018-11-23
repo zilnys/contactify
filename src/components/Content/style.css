@@ -1,0 +1,14 @@
+.Content {
+   flex-grow: 1;
+}
+
+.Content__data {
+   padding: 22px 40px 44px;
+   display: flex;
+}
+
+.Content__data__details {
+   width: 224px;
+   margin-right: 18px;
+   flex-shrink: 0;
+}

@@ -1,0 +1,60 @@
+
+.Contact{
+   cursor: pointer;
+}
+
+.Contact--selected {
+   background-color: #e6f6f9;
+}
+
+.Contact:last-child .Contact__cell:first-child {
+   border-bottom-left-radius: 10px;
+}
+
+.Contact:last-child .Contact__cell:last-child {
+   border-bottom-right-radius: 10px;
+}
+
+.Contact__cell {
+   padding: 10px 12px 9px;
+   color: #4f4d43;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.Contact__cell:first-child {
+   padding-left: 0;
+}
+
+.Contact__cell:nth-of-type(2) {
+   padding-left: 25px;
+}
+
+.Contact__cell:nth-of-type(3), .Contact__cell:nth-of-type(4) {
+   padding-left: 15px;
+}
+
+.Contact__cell:nth-of-type(5) {
+   padding-right: 20px;
+   text-align: right;
+}
+
+.Contact:not(:last-child) .Contact__cell {
+   border-bottom: 1px solid #eaeae8;
+}
+
+.Contact__cell:first-child .Contact__cell__icon {
+   margin: 0 15px;
+}
+
+.Contact__cell__icon {
+   margin-left: 10px;
+   padding: 5px;
+   border-radius: 8px;
+   font-size: 14px;
+}
+
+.Contact--selected .Contact__cell:not(:first-child) .Contact__cell__icon {
+   background-color: #11b6d4;
+   color: #fff;
+}

@@ -1,0 +1,77 @@
+
+.Contacts {
+   width: 100%;
+}
+
+.Contacts__table {
+   width: 100%;
+   border-radius: 10px;
+   background-color: #fff;
+}
+
+.Contacts__table__header__cell {
+   position: relative;
+   padding: 16px 0;
+   color: #fff;
+   font-size: 16px;
+   line-height: 18px;
+   border-right: 1px solid rgba(0, 0, 0, 0.1);
+   border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.Contacts__table__header__cell--sortable {
+   cursor: pointer;
+}
+
+.Contacts__table__header__cell:first-child {
+   border-radius: 8px 0 0 0;
+   background-color: #0086a5;
+   cursor: pointer;
+   border-left: 0;
+   padding-left: 55px;
+   text-align: left;
+}
+
+.Contacts__table__header__cell:nth-of-type(2) {
+   padding-left: 25px;
+   background-color: #0390ae;
+   text-align: left;
+}
+
+.Contacts__table__header__cell:nth-of-type(3) {
+   padding-left: 15px;
+   background-color: #0799b8;
+   text-align: left;
+}
+
+.Contacts__table__header__cell:nth-of-type(4){
+   padding-left: 15px;
+   background-color: #0dadca;
+   text-align: left;
+}
+
+.Contacts__table__header__cell:nth-of-type(5){
+   padding-right: 20px;
+   background-color: #11b6d4;
+   text-align: right;
+}
+
+.Contacts__table__header__cell:last-child {
+   border-radius: 0 10px 0 0;
+   background-color: #14c0dd;
+   border-right: 0;
+}
+
+.Contacts__table__header__cell__icon {
+   position: absolute;
+   right: 10px;
+   top: 50%;
+   transform: translateY(-50%);
+   font-size: 14px;
+}
+
+.Contacts__table__empty__cell {
+   padding: 20px 30px 30px;
+   text-align: center;
+   color: #4f4d43;
+}
